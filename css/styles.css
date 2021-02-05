@@ -1,18 +1,52 @@
 body {
-    background-color:rgb(41, 51, 48);
-    color: white;
+  background-color: rgb(41, 51, 48);
+  color: white;
+  align-content: center;
+  width: 70%;
+  margin: auto;
 }
+
+.mainHead {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.mainHead>div {
+  display: flex;
+  justify-content: center;
+}
+
+#titleText {
+  margin-left: 10pt;
+  margin-top: 2pt;
+}
+
+#nameText {
+  margin-bottom: 0;
+  margin-left: 5pt;
+}
+
 h1 {
-    color: rgb(87, 99, 68);
+  color: rgb(87, 99, 68);
 }
 
 h3 {
-    color:rgb(218, 240, 160);
-    text-align: center;
+  color: rgb(218, 240, 160);
 }
 
+h3:hover {
+    color: rgb(87, 99, 68);
+  }
+  
+
 hr {
-    border-color: rgb(101, 141, 128);
-    border-style: dotted none none;
-    border-width: 5px;
+  border-color: rgb(101, 141, 128);
+  border-style: dotted none none;
+  border-width: 5px;
+}
+
+th {
+  text-align: left;
+  color: lightseagreen;
 }
