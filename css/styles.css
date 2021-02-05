@@ -1,0 +1,18 @@
+body {
+    background-color:rgb(41, 51, 48);
+    color: white;
+}
+h1 {
+    color: rgb(87, 99, 68);
+}
+
+h3 {
+    color:rgb(218, 240, 160);
+    text-align: center;
+}
+
+hr {
+    border-color: rgb(101, 141, 128);
+    border-style: dotted none none;
+    border-width: 5px;
+}
