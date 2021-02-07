@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles2.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital@0;1&family=Sacramento&display=swap"
@@ -15,42 +15,56 @@
 
 <body>
     <div class="mainHead">
-        <img src="images/profile_pics2.png" alt="Ayodele's profile picture">
+        <img class="profilePics" src="images/profile_pics2.png" alt="Ayodele's profile picture">
         <h1 id="nameText">I'm Ayodele, A Software Engineer</h1>
         <p><em>Hear my name pronunciation</em></p>
-        <audio controls src="audio/myname.mp3">
+        <audio class="audio-player" controls src="audio/myname.mp3">
             Not supported by your browser.
         </audio>
     </div>
     <div class="mainContent">
-        <hr>
         <h3>About Me</h3>
         <p>
-            I am Ayodele Emmanuel Olufemi. You may simply call me A.Y. I was born in the mid 80's, in Ibadan, Oyo State, Nigeria. 
+            I am Ayodele Emmanuel Olufemi. You may simply call me A.Y. I was born in the mid 80's, in Ibadan, Oyo State,
+            Nigeria.
         </p>
         <hr>
         <h3>Education</h3>
-        <ul>
-            <li><em>MSc Information Technology</em>, Minnesota State University, Mankato, MN, USA. May 2020</li>
-            <li><em>MSc Mathematics and Statistics</em>, Minnesota State University, Mankato, MN, USA. May 2020</li>
-            <li><em>Certificate in Modeling and Simulation</em>, Minnesota State University, Mankato, MN, USA. December
-                2018</li>
-            <li><em>BSc Mathematics</em>, Obafemi Awolowo University, Ile-Ife, Osun state, Nigeria. August 2010</li>
-        </ul>
+        <img class="education" src="images/education.png" alt="education">
+        <div class="LeftSectionText">
+            <ul>
+                <li><em>MSc Information Technology</em>, Minnesota State University, Mankato, MN, USA. May 2020.</li>
+                <li><em>MSc Mathematics and Statistics</em>, Minnesota State University, Mankato, MN, USA. May 2020.
+                </li>
+                <li><em>Certificate in Modeling and Simulation</em>, Minnesota State University, Mankato, MN, USA.
+                    December
+                    2018.</li>
+                <li><em>BSc Mathematics</em>, Obafemi Awolowo University, Ile-Ife, Osun state, Nigeria. August 2010.
+                </li>
+            </ul>
+        </div>
 
         <hr>
         <h3>Skills</h3>
-        <p>
-            I am a well-rounded person. I know a bit of most technologies. I also enjoy learning emerging
-            technologies just for the fun of having an idea and also to stay relevant in the rapidly evolving
-            technological sphere. Below is a select list of some of my skills with self-ratings ranging from Beginner
-            level ⭐ to Expert level ⭐⭐⭐⭐⭐.
-        </p>
+        <img class="coding" src="images/coding.gif" alt="skills">
+        <div class="RightSectionText">
+            <p>
+                I am a well-rounded person. I know a bit of most technologies. I also enjoy learning emerging
+                technologies just for the fun of having an idea and also to stay relevant in the rapidly evolving
+                technological sphere. Below is a select list of some of my skills with self-ratings ranging from
+                Beginner
+                level ⭐ to Expert level ⭐⭐⭐⭐⭐.
+            </p>
+        </div>
         <table>
             <thead>
                 <th>Skills</th>
                 <th>Ratings</th>
             </thead>
+            <tr>
+                <td>HTML, CSS & Javascript</td>
+                <td>⭐⭐⭐⭐</td>
+            </tr>
             <tr>
                 <td>.NET Development</td>
                 <td>⭐⭐⭐⭐</td>
@@ -62,10 +76,6 @@
             <tr>
                 <td>Angular</td>
                 <td>⭐⭐</td>
-            </tr>
-            <tr>
-                <td>HTML, CSS & Javascript</td>
-                <td>⭐⭐⭐⭐</td>
             </tr>
             <tr>
                 <td>React</td>
@@ -102,6 +112,7 @@
         </table>
         <hr>
         <h3>Hobbies</h3>
+        <img class="hobbies" src="images/hobbies.png" alt="hobbies">
         <ul>
             <li>Music</li>
             <li>Teaching</li>
@@ -112,6 +123,11 @@
         </ul>
         <hr>
         <h3>Certifications</h3>
+        <img class="certified" src="images/certified.png" alt="certified">
+        <p>
+            Despite the fact that I have many skills, I've only earned creditials for a few and I'm planning to earn
+            many more. Below is a list of my certifications.
+        </p>
         <table>
             <thead>
                 <th>Certification</td>
@@ -131,19 +147,22 @@
             <li>Cloud Computing</li>
             <li>Artificial Intelligence</li>
             <li>Machine Learning</li>
-            <li></li>
         </ul>
 
-        <hr>
+        <!-- <hr>
         <h3>Job Application History</h3>
         
-        <h3>Learning Activity Progress</h3>
+        <h3>Learning Activity Progress</h3> -->
     </div>
     <footer>
-        <a href="contact.html"><img src="images/mailme.png" alt="Contact Me"></a>
-        <a href="www.linkedin.com/in/ayo-olufemi"><img src="images/linkedIn.jpg" alt="LinkedIn"></a>
-        <a href="https://github.com/ayodele-olufemi"><img src="images/githubLogo.png" alt="GitHub"></a>
-        <span class="copyright">&copy; 2021 Ayodele Olufemi.</span>
+        <div class="footer-images">
+            <a href="contact.html"><img src="images/mailme.png" alt="Contact Me"></a>
+            <a href="www.linkedin.com/in/ayo-olufemi"><img src="images/linkedIn.jpg" alt="LinkedIn"></a>
+            <a href="https://github.com/ayodele-olufemi"><img src="images/githubLogo.png" alt="GitHub"></a>
+        </div>
+        <div>
+            <p class="copyright">&copy; 2021 Ayodele Olufemi.</p>
+        </div>
     </footer>
 </body>
 
