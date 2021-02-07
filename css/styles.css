@@ -2,45 +2,44 @@ body {
   background-color: rgb(41, 51, 48);
   color: white;
   align-content: center;
-  width: 70%;
   margin: auto;
+  font-family: "Merriweather", serif;
 }
 
 .mainHead {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding: 50px;
+  text-align: center;
+  background-color: rgb(12, 37, 29);
 }
 
-.mainHead>div {
-  display: flex;
-  justify-content: center;
+.mainContent {
+  width: 40%;
+  margin: auto;
 }
 
-#titleText {
-  margin-left: 10pt;
-  margin-top: 2pt;
-}
-
-#nameText {
-  margin-bottom: 0;
-  margin-left: 5pt;
-}
-
-h1 {
+.mainHead > p {
   color: rgb(87, 99, 68);
 }
 
-h3 {
+h1 {
+  font-size: 5.625rem;
+  font-family: "Sacramento", cursive;
+  margin: 0 auto;
   color: rgb(218, 240, 160);
 }
 
+h3 {
+  margin-top: 50px;
+  color: rgb(218, 240, 160);
+  font-family: "Montserrat", sans-serif;
+}
+
 h3:hover {
-    color: rgb(87, 99, 68);
-  }
-  
+  color: rgb(87, 99, 68);
+}
 
 hr {
+  display: none;
   border-color: rgb(101, 141, 128);
   border-style: dotted none none;
   border-width: 5px;
@@ -49,4 +48,39 @@ hr {
 th {
   text-align: left;
   color: lightseagreen;
+}
+
+.form-box {
+  border: 5px solid rgb(218, 240, 160);
+}
+
+label {
+  display: inline-block;
+  width: 20%;
+}
+
+footer {
+  position: relative;
+  padding: 23px auto;
+  background-color: white;
+}
+
+.mainContent > p {
+  line-height: 2;
+}
+
+li {
+  margin: 20px auto;
+}
+
+footer img {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.copyright {
+  color: black;
+  position: absolute;
+  right: 10px;
 }
