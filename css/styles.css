@@ -63,6 +63,48 @@ table {
   text-align: left;
 }
 
+.form-box {
+  color: green;
+  background-color: white;
+  margin: 0 auto 50px;
+  text-align: left;
+  height: 400px;
+  position: relative;
+}
+
+.form-header {
+  background-color: rgb(16, 22, 16); 
+  margin-bottom: 5px;
+}
+
+label {
+  display: inline-block;
+  width: 20%;
+  padding: 10px;
+}
+
+input {
+  width: 65%;
+}
+
+.message-div {
+  position: relative;
+}
+
+textarea {
+  position: absolute;
+  width: 65%;
+}
+
+.submit-button {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: black;
+  color: white;
+  height: 30px;
+}
+
 @media screen and (min-width: 599px) {
   body {
     font-size: 0.9rem;
@@ -122,15 +164,6 @@ table {
 
   hr {
     border-width: 10px;
-    width: 20%;
-  }
-
-  .form-box {
-    border: 5px solid rgb(218, 240, 160);
-  }
-
-  label {
-    display: inline-block;
     width: 20%;
   }
 
@@ -226,15 +259,6 @@ table {
     width: 20%;
   }
 
-  .form-box {
-    border: 5px solid rgb(218, 240, 160);
-  }
-
-  label {
-    display: inline-block;
-    width: 20%;
-  }
-
   p {
     text-align: left;
     line-height: 1.5;
@@ -324,15 +348,6 @@ table {
 
   hr {
     border-width: 10px;
-    width: 20%;
-  }
-
-  .form-box {
-    border: 5px solid rgb(218, 240, 160);
-  }
-
-  label {
-    display: inline-block;
     width: 20%;
   }
 
@@ -428,15 +443,6 @@ table {
       width: 20%;
     }
   
-    .form-box {
-      border: 5px solid rgb(218, 240, 160);
-    }
-  
-    label {
-      display: inline-block;
-      width: 20%;
-    }
-  
     p {
       text-align: left;
       line-height: 1.5;
@@ -518,15 +524,6 @@ table {
   hr {
     border-width: 5px;
     width: 10%;
-  }
-
-  .form-box {
-    border: 5px solid rgb(218, 240, 160);
-  }
-
-  label {
-    display: inline-block;
-    width: 20%;
   }
 
   p {
